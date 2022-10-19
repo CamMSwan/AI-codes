@@ -1,0 +1,37 @@
+.cabessalho{display: flex; 
+            flex-direction: row;
+}
+
+.menu{justify-content: flex-start;}
+
+img{max-width:2rem;
+    max-height:2rem;;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-self: flex-start ;
+    }
+
+
+.titulo {
+    align-self: center;
+    text-align: center;
+    text-decoration: underline;
+    flex-grow: 4;
+}
+
+
+body{display: flex;
+     flex-direction: column;
+}
+
+button{
+    max-width: 5rem;
+    max-height: 5rem;
+}
+
+.botoes{
+    justify-content: flex-end;
+    align-items: center;
+}
+
